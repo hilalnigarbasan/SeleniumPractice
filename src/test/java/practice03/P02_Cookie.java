@@ -45,5 +45,6 @@ public class P02_Cookie extends TestBase {
         driver.manage().deleteAllCookies();
         Set<Cookie> cookies3 = driver.manage().getCookies();
         System.out.println(cookies3.size());
+        Thread.sleep(3000);//
     }
 }

@@ -19,15 +19,10 @@ public class P03_Actions extends TestBase {
         Actions actions = new Actions(driver);
         actions.moveToElement(maviKutu).perform();
         Thread.sleep(3000);
-        Thread.sleep(5000);
-
 
         //Double Click Me! butonuna tiklayalim ve cikan mesajin "Double Clicked !!" oldugunu dogrulayalim
         //Accept ile alert'ü kapatalım
         //Drag and drop kutularini kullanin ve islemi yaptiktan sonra hedef  kutuda "Dropped!" yazildigini dogrulayin
-
-
-
 
 
     }
